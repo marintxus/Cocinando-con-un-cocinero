@@ -25,163 +25,190 @@
 </head>
 
 <body>
-    <div class="container my-4">
-        <h1 class="text-center mb-4">Menú Infantil</h1>
 
-        <div class="row">
-            <div class="col-md-3">
-                <h3>Nuggets de Pollo</h3>
-                <img src="./nuggets-de-pollo-5-youtube.webp" class="img-fluid uniform-img" alt="Nuggets de Pollo">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Pechugas de pollo</li>
-                    <li class="list-group-item">Pan rallado</li>
-                    <li class="list-group-item">Huevos revolvidos</li>
-                    <li class="list-group-item">Sal</li>
-                    <li class="list-group-item">Aceite para freír</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Corta el pollo en trozos pequeños.</li>
-                    <li class="list-group-item">Pásalos por huevo batido y luego por el pan rallado.</li>
-                    <li class="list-group-item">Fríe los nuggets en aceite caliente hasta que estén dorados.</li>
-                    <li class="list-group-item">Escurre sobre papel absorbente y sirve.</li>
-                </ol>
-            </div>
-            <div class="col-md-3">
-                <h3>Macarrones con Queso</h3>
-                <img src="./recipe_classicmacaroniandcheese.webp" class="img-fluid uniform-img" alt="Macarrones con Queso">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Macarrones</li>
-                    <li class="list-group-item">Queso cheddar rallado</li>
-                    <li class="list-group-item">Leche</li>
-                    <li class="list-group-item">Mantequilla</li>
-                    <li class="list-group-item">Sal</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Cuece los macarrones en agua con sal.</li>
-                    <li class="list-group-item">En una sartén, derrite la mantequilla y añade la leche.</li>
-                    <li class="list-group-item">Agrega el queso y remueve hasta que se derrita.</li>
-                    <li class="list-group-item">Mezcla la salsa de queso con los macarrones y sirve.</li>
-                </ol>
-            </div>
-            <div class="col-md-3">
-                <h3>Mini Pizzas</h3>
-                <img src="./img_mini-pizzas-hd-1200x550-cc.webp" class="img-fluid uniform-img" alt="Mini Pizzas">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Pan pita o tortillas</li>
-                    <li class="list-group-item">Salsa de tomate</li>
-                    <li class="list-group-item">Queso mozzarella</li>
-                    <li class="list-group-item">Jamón</li>
-                    <li class="list-group-item">Orégano</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Coloca las tortillas o pan pita en una bandeja de horno.</li>
-                    <li class="list-group-item">Unta salsa de tomate por encima.</li>
-                    <li class="list-group-item">Añade el queso mozzarella y los ingredientes deseados.</li>
-                    <li class="list-group-item">Hornea a 180°C por 10 minutos o hasta que el queso se derrita.</li>
-                </ol>
-            </div>
-            <div class="col-md-3">
-                <h3>Sándwich de Jamón y Queso</h3>
-                <img src="./sandwich-a-la-plancha-de-jamon-y-queso-foto-principal.webp" class="img-fluid uniform-img" alt="Sándwich de Jamón y Queso">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Pan de molde</li>
-                    <li class="list-group-item">Jamón</li>
-                    <li class="list-group-item">Queso</li>
-                    <li class="list-group-item">Mantequilla</li>
-                    <li class="list-group-item">Ketchup (opcional)</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Unta mantequilla en una cara de cada rebanada de pan.</li>
-                    <li class="list-group-item">Coloca jamón y queso entre las rebanadas de pan.</li>
-                    <li class="list-group-item">Tuesta el sándwich en una sartén hasta que esté dorado y el queso se derrita.</li>
-                    <li class="list-group-item">Sírvelo caliente con ketchup al gusto.</li>
-                </ol>
-            </div>
+    <!-- Navbar añadida -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Recetitas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarBasic">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./form.html">Formulario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
-
-        <div class="row mt-4">
-            <div class="col-md-3">
-                <h3>Pancakes</h3>
-                <img src="https://imgs.search.brave.com/ZCWCIpyEFEOArI3fFh4ioyVDLjc8Rwppd1VKl9Lo8Yk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NTU4NDIzL3Bob3Rv/L3BhbmNha2VzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz16/Z3RKOWNOZ1dJY2pM/a1g2Q29NUW1BR2tl/R0FjT1BNTEdYbVpU/cjkzU0c0PQ" class="img-fluid uniform-img" alt="Pancakes">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Harina</li>
-                    <li class="list-group-item">Huevo</li>
-                    <li class="list-group-item">Leche</li>
-                    <li class="list-group-item">Mantequilla</li>
-                    <li class="list-group-item">Miel o jarabe</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Mezcla la harina, leche y huevo en un bol.</li>
-                    <li class="list-group-item">Calienta un poco de mantequilla en una sartén.</li>
-                    <li class="list-group-item">Vierte la masa en la sartén y cocina hasta que esté dorada por ambos lados.</li>
-                    <li class="list-group-item">Sírvelo con miel o jarabe.</li>
-                </ol>
+      </div>
+    </nav>
+            <div class="container my-4">
+                <h1 class="text-center mb-4">Menú Infantil</h1>
+        
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Nuggets de Pollo</h3>
+                        <img src="./nuggets-de-pollo-5-youtube.webp" class="img-fluid uniform-img" alt="Nuggets de Pollo">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Pechugas de pollo</li>
+                            <li class="list-group-item">Pan rallado</li>
+                            <li class="list-group-item">Huevos revolvidos</li>
+                            <li class="list-group-item">Sal</li>
+                            <li class="list-group-item">Aceite para freír</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Corta el pollo en trozos pequeños.</li>
+                            <li class="list-group-item">Pásalos por huevo batido y luego por el pan rallado.</li>
+                            <li class="list-group-item">Fríe los nuggets en aceite caliente hasta que estén dorados.</li>
+                            <li class="list-group-item">Escurre sobre papel absorbente y sirve.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Macarrones con Queso</h3>
+                        <img src="./recipe_classicmacaroniandcheese.webp" class="img-fluid uniform-img" alt="Macarrones con Queso">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Macarrones</li>
+                            <li class="list-group-item">Queso cheddar rallado</li>
+                            <li class="list-group-item">Leche</li>
+                            <li class="list-group-item">Mantequilla</li>
+                            <li class="list-group-item">Sal</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Cuece los macarrones en agua con sal.</li>
+                            <li class="list-group-item">En una sartén, derrite la mantequilla y añade la leche.</li>
+                            <li class="list-group-item">Agrega el queso y remueve hasta que se derrita.</li>
+                            <li class="list-group-item">Mezcla la salsa de queso con los macarrones y sirve.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Mini Pizzas</h3>
+                        <img src="./img_mini-pizzas-hd-1200x550-cc.webp" class="img-fluid uniform-img" alt="Mini Pizzas">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Pan pita o tortillas</li>
+                            <li class="list-group-item">Salsa de tomate</li>
+                            <li class="list-group-item">Queso mozzarella</li>
+                            <li class="list-group-item">Jamón</li>
+                            <li class="list-group-item">Orégano</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Coloca las tortillas o pan pita en una bandeja de horno.</li>
+                            <li class="list-group-item">Unta salsa de tomate por encima.</li>
+                            <li class="list-group-item">Añade el queso mozzarella y los ingredientes deseados.</li>
+                            <li class="list-group-item">Hornea a 180°C por 10 minutos o hasta que el queso se derrita.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Sándwich de Jamón y Queso</h3>
+                        <img src="./sandwich-a-la-plancha-de-jamon-y-queso-foto-principal.webp" class="img-fluid uniform-img" alt="Sándwich de Jamón y Queso">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Pan de molde</li>
+                            <li class="list-group-item">Jamón</li>
+                            <li class="list-group-item">Queso</li>
+                            <li class="list-group-item">Mantequilla</li>
+                            <li class="list-group-item">Ketchup (opcional)</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Unta mantequilla en una cara de cada rebanada de pan.</li>
+                            <li class="list-group-item">Coloca jamón y queso entre las rebanadas de pan.</li>
+                            <li class="list-group-item">Tuesta el sándwich en una sartén hasta que esté dorado y el queso se derrita.</li>
+                            <li class="list-group-item">Sírvelo caliente con ketchup al gusto.</li>
+                        </ol>
+                    </div>
+                </div>
+        
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <h3>Pancakes</h3>
+                        <img src="https://imgs.search.brave.com/ZCWCIpyEFEOArI3fFh4ioyVDLjc8Rwppd1VKl9Lo8Yk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NTU4NDIzL3Bob3Rv/L3BhbmNha2VzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz16/Z3RKOWNOZ1dJY2pM/a1g2Q29NUW1BR2tl/R0FjT1BNTEdYbVpU/cjkzU0c0PQ" class="img-fluid uniform-img" alt="Pancakes">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Harina</li>
+                            <li class="list-group-item">Huevo</li>
+                            <li class="list-group-item">Leche</li>
+                            <li class="list-group-item">Mantequilla</li>
+                            <li class="list-group-item">Miel o jarabe</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Mezcla la harina, leche y huevo en un bol.</li>
+                            <li class="list-group-item">Calienta un poco de mantequilla en una sartén.</li>
+                            <li class="list-group-item">Vierte la masa en la sartén y cocina hasta que esté dorada por ambos lados.</li>
+                            <li class="list-group-item">Sírvelo con miel o jarabe.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Puré de Patatas</h3>
+                        <img src="./purepapa.webp" class="img-fluid uniform-img" alt="Puré de Patatas">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Patatas</li>
+                            <li class="list-group-item">Mantequilla</li>
+                            <li class="list-group-item">Leche</li>
+                            <li class="list-group-item">Sal</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Hierve las patatas hasta que estén blandas.</li>
+                            <li class="list-group-item">Pélalas y aplástalas con un tenedor.</li>
+                            <li class="list-group-item">Mezcla con mantequilla y leche hasta obtener un puré suave.</li>
+                            <li class="list-group-item">Sazona con sal al gusto.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Galletas de Chocolate</h3>
+                        <img src="./galletacho.webp" class="img-fluid uniform-img" alt="Galletas de Chocolate">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Harina</li>
+                            <li class="list-group-item">Azúcar</li>
+                            <li class="list-group-item">Huevo</li>
+                            <li class="list-group-item">Mantequilla</li>
+                            <li class="list-group-item">Chispas de chocolate</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Mezcla la harina, azúcar y mantequilla en un bol.</li>
+                            <li class="list-group-item">Agrega el huevo y las chispas de chocolate.</li>
+                            <li class="list-group-item">Forma pequeñas bolas de masa y colócalas en una bandeja de horno.</li>
+                            <li class="list-group-item">Hornea a 180°C por 12-15 minutos.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Brochetas de Frutas</h3>
+                        <img src="./broche.webp" class="img-fluid uniform-img" alt="Brochetas de Frutas">
+                        <ul class="list-group fs-5">
+                            <li class="list-group-item">Fresas</li>
+                            <li class="list-group-item">Plátano</li>
+                            <li class="list-group-item">Melón</li>
+                            <li class="list-group-item">Uvas</li>
+                            <li class="list-group-item">Palillos de brocheta</li>
+                        </ul>
+                        <p class="fs-5"><strong>Instrucciones:</strong></p>
+                        <ol class="list-group list-group-numbered fs-5">
+                            <li class="list-group-item">Corta las frutas en trozos pequeños.</li>
+                            <li class="list-group-item">Inserta las frutas en los palos de brocheta, alternando los tipos de fruta.</li>
+                            <li class="list-group-item">Sírvelas frescas o acompáñalas con yogurt.</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
-                <h3>Puré de Patatas</h3>
-                <img src="./purepapa.webp" class="img-fluid uniform-img" alt="Puré de Patatas">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Patatas</li>
-                    <li class="list-group-item">Mantequilla</li>
-                    <li class="list-group-item">Leche</li>
-                    <li class="list-group-item">Sal</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Hierve las patatas hasta que estén blandas.</li>
-                    <li class="list-group-item">Pélalas y aplástalas con un tenedor.</li>
-                    <li class="list-group-item">Mezcla con mantequilla y leche hasta obtener un puré suave.</li>
-                    <li class="list-group-item">Sazona con sal al gusto.</li>
-                </ol>
-            </div>
-            <div class="col-md-3">
-                <h3>Galletas de Chocolate</h3>
-                <img src="./galletacho.webp" class="img-fluid uniform-img" alt="Galletas de Chocolate">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Harina</li>
-                    <li class="list-group-item">Azúcar</li>
-                    <li class="list-group-item">Huevo</li>
-                    <li class="list-group-item">Mantequilla</li>
-                    <li class="list-group-item">Chispas de chocolate</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Mezcla la harina, azúcar y mantequilla en un bol.</li>
-                    <li class="list-group-item">Agrega el huevo y las chispas de chocolate.</li>
-                    <li class="list-group-item">Forma pequeñas bolas de masa y colócalas en una bandeja de horno.</li>
-                    <li class="list-group-item">Hornea a 180°C por 12-15 minutos.</li>
-                </ol>
-            </div>
-            <div class="col-md-3">
-                <h3>Brochetas de Frutas</h3>
-                <img src="./broche.webp" class="img-fluid uniform-img" alt="Brochetas de Frutas">
-                <ul class="list-group fs-5">
-                    <li class="list-group-item">Fresas</li>
-                    <li class="list-group-item">Plátano</li>
-                    <li class="list-group-item">Melón</li>
-                    <li class="list-group-item">Uvas</li>
-                    <li class="list-group-item">Palillos de brocheta</li>
-                </ul>
-                <p class="fs-5"><strong>Instrucciones:</strong></p>
-                <ol class="list-group list-group-numbered fs-5">
-                    <li class="list-group-item">Corta las frutas en trozos pequeños.</li>
-                    <li class="list-group-item">Inserta las frutas en los palos de brocheta, alternando los tipos de fruta.</li>
-                    <li class="list-group-item">Sírvelas frescas o acompáñalas con yogurt.</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-8ZCFQ26Q5JQNZTFjU5XTWwaoNR6fU9ytL1t9a3lOhi6TpgBFOsHkwAc9B5hLGY00" crossorigin="anonymous">
-    </script>
-</body>
-git remote add origin https://github.com/marintxus/Cocinando-con-un-cocinero.git
-git branch -M main
-git push -u origin main
-</html>
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-8ZCFQ26Q5JQNZTFjU5XTWwaoNR6fU9ytL1t9a3lOhi6TpgBFOsHkwAc9B5hLGY00" crossorigin="anonymous">
+            </script>
+        </body>
+        git remote add origin https://github.com/marintxus/Cocinando-con-un-cocinero.git
+        git branch -M main
+        git push -u origin main
+        </html>
